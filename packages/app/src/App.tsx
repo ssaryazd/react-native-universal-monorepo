@@ -17,7 +17,7 @@ export function App(): JSX.Element {
     ? `${Platform.OS} (${subplatform})`
     : Platform.OS;
   return (
-    <SafeAreaView style={styles.root}>
+    <SafeAreaView style={styles.root} backgroundColor = "red">
       {/* On React Native for Web builds coming from CRA, TypeScript 
           complains about the image type, so we cast it as a workaround  */}
       <Image style={styles.logo} source={LogoSrc as ImageSourcePropType} />
