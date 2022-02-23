@@ -26,7 +26,7 @@ export function AsyncStorageExample(): JSX.Element {
     <View style={styles.root}>
       <Text
         style={styles.text}
-      >{`Use the button below and refresh the app to test the async-storage native module`}</Text>
+      >{`Saeed2 below and refresh the app to test the async-storage native module`}</Text>
       <View style={styles.row}>
         <Text style={styles.text}>Current value: </Text>
         <Text style={styles.value}>{value} </Text>
